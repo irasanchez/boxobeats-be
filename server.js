@@ -1,8 +1,18 @@
 const express = require("express");
-const beatsRoutes = require("./routes/beatRoutes");
+const cors = require("cors");
+const helmet = require("helmet");
+
+const beatsRoutes = require("./sounds/beatRoutes.js");
+const userRoutes = require("./users/userRoutes.js");
+const authRoutes = require("./auth/authRoutes.js");
 
 const server = express();
+server.use(helmet());
+server.use(cors());
+server.use(express.json());
 
+server.use("/auth", authRoutes);
+server.use("/user", userRoutes);
 server.use("/beats", beatsRoutes);
 
 server.use("/", (req, res) => res.send("API is up and running! 😊"));
