@@ -11,9 +11,9 @@ server.use(helmet());
 server.use(cors());
 server.use(express.json());
 
-server.use("/auth", authRoutes);
-server.use("/user", userRoutes);
-server.use("/beats", beatsRoutes);
+server.use("/api/auth", authRoutes);
+server.use("/api/user", userRoutes);
+server.use("/api/beats", beatsRoutes);
 
 server.use("/", (req, res) => res.send("API is up and running! 😊"));
 // watch for connections on port 5000
