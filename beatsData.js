@@ -1,5 +1,5 @@
-const beats = {
-  beats: [
+const sounds = {
+  sounds: [
     {
       name: "kick drum",
       included: true,
@@ -10,19 +10,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "hi-hat",
@@ -34,19 +34,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "k snare",
@@ -58,19 +58,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "cough snare ",
@@ -82,19 +82,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "pf snare",
@@ -106,19 +106,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "psh snare ",
@@ -130,19 +130,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "tongue click",
@@ -154,19 +154,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "throat kick",
@@ -178,19 +178,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "trumpet",
@@ -202,19 +202,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "lip roll 1 , lip roll 2",
@@ -226,19 +226,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "lip bass",
@@ -250,19 +250,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "fart bass",
@@ -274,26 +274,26 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "starsky bass ",
       included: false,
       symbol: "",
       tutorials: ["_HziA_wdgWc?"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "rimshot ",
@@ -305,19 +305,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "dry kick ",
@@ -329,369 +329,369 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "sucker punch",
       included: false,
       symbol: "",
       tutorials: ["l3c6UcIkZ4o"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "pop/tennis ball sound",
       included: false,
       symbol: "",
       tutorials: ["3q6npU-fPtU"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "snore bass",
       included: false,
       symbol: "",
       tutorials: ["lZvLQmDwPC8"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "siren ",
       included: false,
       symbol: "",
       tutorials: ["asHG9d3aDLs"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "lip oscillation",
       included: false,
       symbol: "",
       tutorials: ["gcaaYS1xUIs"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "lip oscillation (on the side) ",
       included: false,
       symbol: "",
       tutorials: [],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "hollow clop ",
       included: false,
       symbol: "",
       tutorials: ["CEG7oUnULA0"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "reverse liproll ",
       included: false,
       symbol: "",
       tutorials: ["xrp5lPmdSYA"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "click roll ",
       included: false,
       symbol: "",
       tutorials: ["gqRZ_cmE6-o"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "throat bass",
       included: false,
       symbol: "",
       tutorials: ["wxh4Nvi6S-M"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "OD bass",
       included: false,
       symbol: "",
       tutorials: ["y8Gxke_Ph8k"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "synth sound",
       included: false,
       symbol: "",
       tutorials: ["2MFi5sl5jjI"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "zipper ",
       included: false,
       symbol: "",
       tutorials: ["90Uw02w2RvI"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "meow squeak",
       included: false,
       symbol: "",
       tutorials: ["6RA4HVoAevY"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "water drop",
       included: false,
       symbol: "",
       tutorials: ["PFOxDvpKl6M"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "crab scratch",
       included: false,
       symbol: "",
       tutorials: ["cE-oPz7zK60"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "vocal scratch",
       included: false,
       symbol: "",
       tutorials: ["8DM3H7mOgTk"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "cricket whistle",
       included: false,
       symbol: "",
       tutorials: ["MaB3b25Lsf8"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "outward sub bass",
       included: false,
       symbol: "",
       tutorials: ["KdYl0dvOApc"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "tkK",
       included: false,
       symbol: "",
       tutorials: ["UWPj0Bq3Fco"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "inward bass",
       included: false,
       symbol: "",
       tutorials: ["V6k66FVQCE0"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "polyphonic voice/double voice ",
       included: false,
       symbol: "",
       tutorials: ["_HziA_wdgWc"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "sega sound",
       included: false,
       symbol: "",
       tutorials: ["T0phy1yrnaA"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Calexy whistle",
       included: false,
       symbol: "",
       tutorials: ["5Ki40-b0kRI"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "vortex whistle",
       included: false,
       symbol: "",
       tutorials: ["ITXh8EIWVSg"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "vibration bass ",
       included: false,
       symbol: "",
       tutorials: ["emcV-PaIozM"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "vocalized chest bass",
       included: false,
       symbol: "",
       tutorials: ["SBGwm8j-lc0"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "D-low scratch",
       included: false,
       symbol: "",
       tutorials: ["Y6c-yIzqUuQ"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "D-low click ",
       included: false,
       symbol: "",
       tutorials: ["04Gs21FES7w"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Contrix/Babeli combo",
       included: false,
       symbol: "",
       tutorials: ["qhmdpNNMMSM"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Colaps click ",
       included: false,
       symbol: "",
       tutorials: ["oKh7P3EiDUw"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Beat Rhino snare",
       included: false,
       symbol: "",
       tutorials: ["CSXJv4TnZ60"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "ESH snare",
       included: false,
       symbol: "",
       tutorials: ["zpFNqPUohA4"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Two.h snare (outward sub bass snare) ",
       included: false,
       symbol: "",
       tutorials: ["A5iGjf4AbuI"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "ZeDe scratch ",
       included: false,
       symbol: "",
       tutorials: ["5_wR4oKoZsg"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Trung Bao Đ ",
       included: false,
       symbol: "",
       tutorials: ["ID7AC5kv0Po"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Trung Bao cannon bass",
       included: false,
       symbol: "",
       tutorials: ["mp14wMmnCmc"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Gene lip bass ",
       included: false,
       symbol: "",
       tutorials: ["gcaaYS1xUIs"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "D-low zipper",
       included: false,
       symbol: "",
       tutorials: ["hPlHOHHjaBc"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "K.I.M. squeak ",
       included: false,
       symbol: "",
       tutorials: ["RkNrI5RtEhE"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "MB14/Dharni's gauteng (chinese instrument)",
       included: false,
       symbol: "",
       tutorials: ["NXNBrSU12Qo"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Skiller roll ",
       included: false,
       symbol: "",
       tutorials: ["D8zQhJmJ-kE"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Effaybee/Colaps/Inertia's reverse sound",
       included: false,
       symbol: "",
       tutorials: ["fw-tWYz0G8w"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "ShowGo double voice",
       included: false,
       symbol: "",
       tutorials: ["CsnCEQnC6CE"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Slizzer roll ",
       included: false,
       symbol: "",
       tutorials: ["d7FR9YTpxd0"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Pash shimmer ",
       included: false,
       symbol: "",
       tutorials: ["ZcsB7G9ZoZo"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Pash double voice ",
       included: false,
       symbol: "",
       tutorials: ["Qgx2Y74emR0"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "pitch snare 1 , pitch snare 2 ",
       included: false,
       symbol: "",
       tutorials: ["tPgMx69lw9A"],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Helium tongue zipper",
       included: false,
       symbol: "",
       tutorials: [],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Helium k snare ",
       included: false,
       symbol: "",
       tutorials: [],
-      prerequisites: ""
+      prerequisites: "",
     },
     {
       name: "Ralik whistle",
@@ -703,19 +703,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "Frosty special sound1 , Frost special sound2 ",
@@ -727,19 +727,19 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
+          user: "some person",
+        },
+      ],
     },
     {
       name: "nasal humming",
@@ -751,21 +751,21 @@ const beats = {
         {
           tip:
             "Try humming while brushing your teeth/holding water in your mouth to learn how to hum through your nose.",
-          user: "beatBud"
+          user: "beatBud",
         },
         {
           tip:
             "He’d waited in the puppet place had been a subunit of Freeside’s security system. A graphic representation of data abstracted from the Chinese program’s thrust",
-          user: "a different user"
+          user: "a different user",
         },
         {
           tip:
             "a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.",
-          user: "some person"
-        }
-      ]
-    }
-  ]
+          user: "some person",
+        },
+      ],
+    },
+  ],
 };
 
-module.exports = beats;
+module.exports = sounds;

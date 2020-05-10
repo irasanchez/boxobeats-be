@@ -1,9 +1,9 @@
 const express = require("express");
-const beats = require("../beatsData");
+const sounds = require("../soundsData");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.status(200).json(beats);
+  res.status(200).json(sounds);
 });
 
 module.exports = router;
