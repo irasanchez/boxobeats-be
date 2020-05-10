@@ -1,15 +1,36 @@
 const db = require("../data/db-config.js");
 
 module.exports = {
+  get,
   add,
   getByEmail,
+  update,
+  remove,
 };
+
+function get() {
+  return db("user").select("id", "username");
+}
 
 function getByEmail(email) {
   return db("user").where({ email }).first();
 }
 
+function getById(id) {
+  return db("user").where({ id }).first();
+}
+
 function add(newUser) {
-  console.log(newUser);
   return db("user").insert(newUser);
+}
+
+function update(changes, id) {
+  return db("schemes")
+    .where({ id })
+    .update(changes)
+    .then(() => getById(id));
+}
+
+function remove(id) {
+  return db("user").where("id", id).del();
 }

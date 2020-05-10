@@ -8,7 +8,6 @@ describe("authRoutes.js", () => {
       .post("/api/register")
       .send({ username: "kdshfkdhsakh", password: "wi93499" })
       .then((res) => {
-        console.log("&&&&&&&&&&&&", res.body);
         expect(res.body).toHaveProperty("username");
       });
   });
