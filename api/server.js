@@ -2,9 +2,9 @@ const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
 
-const beatsRoutes = require("./sounds/beatRoutes.js");
-const userRoutes = require("./users/userRoutes.js");
-const authRoutes = require("./auth/authRoutes.js");
+const beatsRoutes = require("../sounds/beatRoutes.js");
+const userRoutes = require("../users/userRoutes.js");
+const authRoutes = require("../auth/authRoutes.js");
 
 const server = express();
 server.use(helmet());
