@@ -31,7 +31,7 @@ router.post("/login", (req, res) => {
         // the server needs to return the token to the client
         // this doesn't happen automatically like it happens with cookies
         res.status(200).json({
-          message: `Welcome ${user.stage_name}!, have a token...`,
+          message: `Welcome ${user.stage_name}!`,
           token, // attach the token as part of the response
         });
       } else {
