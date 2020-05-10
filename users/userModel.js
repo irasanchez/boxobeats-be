@@ -2,8 +2,9 @@ const db = require("../data/db-config.js");
 
 module.exports = {
   get,
-  add,
   getByEmail,
+  getById,
+  add,
   update,
   remove,
 };
