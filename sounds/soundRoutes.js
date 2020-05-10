@@ -1,9 +1,19 @@
 const express = require("express");
-const sounds = require("../soundsData");
+const Sounds = require("../soundsData");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.status(200).json(sounds);
+  Sounds.get()
+    .then((sounds) => res.status(200).json(sounds))
+    .catch((err) => res.status(500).json(err));
+});
+
+router.get("/:id", (req, res) => {
+  let { id } = req.params;
+
+  Sounds.getById(id)
+    .then((sound) => res.status(200).json(sound))
+    .catch((err) => res.status(500).json(err));
 });
 
 module.exports = router;
