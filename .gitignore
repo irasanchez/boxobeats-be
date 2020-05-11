@@ -1,3 +1,5 @@
 /node_modules
 .gitignore
 .env
+database.db3
+data/database.db3

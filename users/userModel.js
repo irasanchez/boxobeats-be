@@ -22,7 +22,9 @@ function getById(id) {
 }
 
 function add(newUser) {
-  return db("user").insert(newUser);
+  return db("user")
+    .insert(newUser)
+    .then(([id]) => db("user").where({ id }).first());
 }
 
 function update(changes, id) {
