@@ -6,6 +6,7 @@ const checkCredentials = require("../auth/authMiddleware");
 const soundRoutes = require("../sounds/soundRoutes.js");
 const userRoutes = require("../users/userRoutes.js");
 const authRoutes = require("../auth/authRoutes.js");
+const tipRoutes = require("../auth/tipRoutes.js");
 
 const server = express();
 server.use(helmet());
@@ -15,6 +16,7 @@ server.use(express.json());
 server.use("/api/auth", authRoutes);
 server.use("/api/user", checkCredentials, userRoutes);
 server.use("/api/sounds", checkCredentials, soundRoutes);
+server.use("/api/tips", checkCredentials, tipRoutes);
 
 server.use("/", (req, res) => res.send("API is up and running! 😊"));
 
