@@ -4,7 +4,8 @@
   "description": "box-o-beats backend",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "test": "jest --watch"
   },
   "repository": {
