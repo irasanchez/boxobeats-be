@@ -2,7 +2,6 @@ const db = require("../data/db-config.js");
 
 module.exports = {
   get,
-  getById,
 };
 
 // this will include the sounds and any tips users left re: sounds
