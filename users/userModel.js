@@ -22,9 +22,11 @@ function getById(id) {
 }
 
 function add(newUser) {
-  return db("user")
-    .insert(newUser)
-    .then(([id]) => db("user").where({ id }).first());
+  return db("user").insert(newUser).returning("*");
+  //  👇this is for sqlite
+  // .then(([id]) => db("user")
+  // .where({ id })
+  // .first());
 }
 
 function update(changes, id) {
