@@ -6,7 +6,7 @@ const checkCredentials = require("../auth/authMiddleware");
 const soundRoutes = require("../sounds/soundRoutes.js");
 const userRoutes = require("../users/userRoutes.js");
 const authRoutes = require("../auth/authRoutes.js");
-const tipRoutes = require("../auth/tipRoutes.js");
+const tipRoutes = require("../tips/tipRoutes.js");
 
 const server = express();
 server.use(helmet());
