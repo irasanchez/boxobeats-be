@@ -5,7 +5,13 @@ exports.seed = function (knex) {
     .then(function () {
       // Inserts seed entries
       return knex("tip").insert([
-        { id: 0, content: "here's a tip...", user_id: 0, sound_id: 0 },
+        {
+          id: 0,
+          content:
+            "You can play with the intensity of this sound for different effects.",
+          user_id: 0,
+          sound_id: 0,
+        },
       ]);
     });
 };
