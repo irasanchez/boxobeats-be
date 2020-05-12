@@ -9,7 +9,3 @@ module.exports = {
 function get(sound_id) {
   return db("tip").where({ sound_id });
 }
-
-function getById(id) {
-  return db("sound").where({ id }).first();
-}
