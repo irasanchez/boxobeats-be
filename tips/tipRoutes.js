@@ -3,7 +3,7 @@ const Tips = require("./tipModel");
 const router = express.Router();
 
 // gets the tips for a sound
-router.get("/", (req, res) => {
+router.get("/:id", (req, res) => {
   let { id } = req.params.id;
   Tips.get(id)
     .then((tips) => res.status(200).json(tips))
