@@ -10,7 +10,7 @@ module.exports = {
 };
 
 function get() {
-  return db("user").select("id", "username");
+  return db("user").select("id", "stage_name");
 }
 
 function getByEmail(email) {
