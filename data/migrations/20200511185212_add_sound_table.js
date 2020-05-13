@@ -3,7 +3,7 @@ exports.up = function (knex) {
     tbl.increments();
     tbl.text("name", 255).unique().notNullable();
     tbl.text("tutorial", 128).notNullable();
-    tbl.text("description", 255).unique();
+    tbl.text("description", 255);
   });
 };
 
