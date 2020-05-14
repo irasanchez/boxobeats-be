@@ -15,7 +15,7 @@ server.use(express.json());
 
 server.use("/api/auth", authRoutes);
 server.use("/api/user", checkCredentials, userRoutes);
-server.use("/api/sounds", checkCredentials, soundRoutes);
+server.use("/api/sounds", soundRoutes);
 server.use("/api/tips", checkCredentials, tipRoutes);
 
 server.use("/", (req, res) => res.send("API is up and running! 😊"));
